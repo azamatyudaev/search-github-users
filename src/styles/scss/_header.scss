@@ -1,0 +1,7 @@
+.header {
+  @apply shadow-lg bg-slate-700;
+
+  &__inner {
+    @apply flex items-center justify-between py-4;
+  }
+}
