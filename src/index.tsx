@@ -1,7 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import './styles/tailwind.scss'
-import './styles/scss/main.scss'
+import './styles/tailwind.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { BrowserRouter } from 'react-router-dom'

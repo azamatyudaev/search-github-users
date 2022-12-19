@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+  @apply py-4 shadow-[4px_0_6px_1px_rgba(0,0,0,0.3)];
+}
+
+.header {
+  @apply shadow-lg bg-slate-700;
+}
+
+.header__inner {
+  @apply flex items-center justify-between py-4;
+}
+
+.logo {
+  @apply text-[18px] text-gray-100 font-bold;
+}
+
+.nav__list {
+   @apply flex items-center gap-x-4;
+ }
+
+.nav__link {
+  @apply text-gray-400 font-medium transition-all hover:text-gray-100;
+}
+
+.nav__link.active {
+  @apply text-gray-100;
+}
